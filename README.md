@@ -4,12 +4,12 @@ languages:
 - java
 products:
 - azure
-services: Appservice
-platforms: java
-author: yaohaizh
+extensions:
+- services: Appservice
+- platforms: java
 ---
 
-## Getting Started with Appservice - Manage Web App Slots - in Java ##
+# Getting Started with Appservice - Manage Web App Slots - in Java #
 
 
   Azure App Service basic sample for managing web apps.
