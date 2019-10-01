@@ -8,8 +8,7 @@ description: "Azure App Service basic sample for managing web apps."
 urlFragment: app-service-java-manage-staging-and-production-slots-for-web-apps
 ---
 
-# Getting Started with Appservice - Manage Web App Slots - in Java #
-
+# Manage Web App Slots in Azure App Service (Java)
 
   Azure App Service basic sample for managing web apps.
    - Create 3 web apps in 3 different regions
