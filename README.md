@@ -4,11 +4,13 @@ languages:
 - java
 products:
 - azure
-description: "Azure App Service basic sample for managing web apps."
-urlFragment: app-service-java-manage-staging-and-production-slots-for-web-apps
+extensions:
+- services: Appservice
+- platforms: java
 ---
 
-# Manage Web App Slots in Azure App Service (Java)
+# Getting Started with Appservice - Manage Web App Slots - in Java #
+
 
   Azure App Service basic sample for managing web apps.
    - Create 3 web apps in 3 different regions
@@ -25,13 +27,11 @@ To run this sample:
 
 Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an auth file. See [how to create an auth file](https://github.com/Azure/azure-libraries-for-java/blob/master/AUTH.md).
 
-```bash
-git clone https://github.com/Azure-Samples/app-service-java-manage-staging-and-production-slots-for-web-apps.git
+    git clone https://github.com/Azure-Samples/app-service-java-manage-staging-and-production-slots-for-web-apps.git
 
-cd app-service-java-manage-staging-and-production-slots-for-web-apps
+    cd app-service-java-manage-staging-and-production-slots-for-web-apps
 
-mvn clean compile exec:java
-```
+    mvn clean compile exec:java
 
 ## More information ##
 
